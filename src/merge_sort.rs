@@ -1,4 +1,3 @@
-use std::vec;
 pub fn merge<T: Ord + Copy>(left: &Vec<T>, right: &Vec<T>) -> Vec<T> {
     let mut i = 0; //left
     let mut j = 0; //right

@@ -74,6 +74,5 @@ impl<'a, T: Ord + Debug> Iterator for BFSIterator<'a, T> {
 
 #[test]
 fn _test() {
-    let v: VecDeque<usize> = VecDeque::new();
     // v.pop_front()
 }
