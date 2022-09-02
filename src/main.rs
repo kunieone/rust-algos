@@ -1,7 +1,5 @@
-pub mod graph_iter;
-pub mod graph_matrix;
+pub mod graph;
 pub mod heaps;
-pub mod merge_sort;
-pub mod union_find;
+pub mod sorting;
 
 fn main() {}

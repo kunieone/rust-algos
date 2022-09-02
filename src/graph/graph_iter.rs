@@ -1,6 +1,6 @@
 use std::{collections::VecDeque, fmt::Debug};
 
-use crate::graph_matrix::Graph;
+use super::graph_matrix::Graph;
 
 pub struct DFSIterator<'a, T: Ord + Debug> {
     pub graph: &'a Graph<T>,

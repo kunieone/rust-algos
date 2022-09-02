@@ -37,7 +37,7 @@ pub fn merget_sort<T: Ord + Copy>(arr: Vec<T>) -> Vec<T> {
 }
 
 #[test]
-fn _test() {
+fn heap_srot_test() {
     let test = vec![3, 5, 2, 1, 7, 6, 5, 9, 8, 0];
     let sorted = merget_sort(test);
     println!("{:?}", sorted);

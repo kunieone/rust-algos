@@ -1,3 +1,3 @@
 pub mod heap;
-pub mod heap_sort;
-pub mod priority_queue;
+pub mod prique;
+mod task;
